@@ -1,0 +1,36 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Ghost here.
+ * @author Amanda Schepp 
+ * Mr.Hardman
+ * Assignment 1, sideScroller
+ * Feb 23
+ */
+public class Ghost extends Actor
+{
+    
+    public Ghost()
+    {
+     GreenfootImage image1 = new GreenfootImage("Ghost2.png"); 
+     getImage().scale(30, 30); 
+    }
+    
+    /**
+     * Act - do whatever the Ghost wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+        move(-3);
+        
+        if(getX() <= 0)
+        {
+          ScrollerWorld world = (ScrollerWorld)getWorld();
+          getWorld().removeObject(this);  
+          
+        }
+    }  
+    
+    
+}
