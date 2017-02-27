@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Fri Feb 24 14:26:20 CST 2017
+#Mon Feb 27 14:32:13 CST 2017
 dependency9.type=UsesDependency
 target4.type=ClassTarget
 dependency3.from=ScrollerWorld
@@ -67,11 +67,11 @@ dependency6.type=UsesDependency
 target1.type=ClassTarget
 class.Hero.image=Hero.png
 dependency9.to=ScrollerWorld
-editor.swing.0.width=961
-editor.swing.0.y=105
+editor.swing.0.width=960
+editor.swing.0.y=68
 target6.y=10
 target1.typeParameters=
-editor.swing.0.x=806
+editor.swing.0.x=810
 target6.x=70
 class.Platform.image=platform.png
 target2.height=50

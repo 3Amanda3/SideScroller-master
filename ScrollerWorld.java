@@ -1,7 +1,6 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class MyWorld here.
  * @author Amanda Schepp 
  * Mr.Hardman
  * Assignment 1, sideScroller
@@ -45,11 +44,7 @@ public class ScrollerWorld extends World
     }
 
     /**
-     * Add an act method here that will handle adding platforms to the right side
-     * of the world so that the hero doesn't run out of platform to run on. This
-     * method will also add Enemies to the world 0.67% of the time. The last thing
-     * the act method will need is a method call to the displayScore method
-     * 
+     * Act when run will add obects to the world at random and check if score is below 0 and end the game.
      * @param there are no parameters
      * @return nothing is returned
      */

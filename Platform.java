@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Platform here.
+ * 
  * @author Amanda Schepp 
  * Mr.Hardman
  * Assignment 1, sideScroller

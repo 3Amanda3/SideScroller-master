@@ -1,7 +1,6 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Hero here.
  * 
  * @author Amanda Schepp 
  * Mr.Hardman
@@ -22,7 +21,7 @@ public class Hero extends Actor
     
     
     /**
-     * Create constructor to scale the original and jumping images, mirror the 
+     * Hero scales the original and jumping images, mirror the 
      * original image horizontally, and set the image of the hero to the original
      * variable
      *  @param there are no parameters
@@ -37,7 +36,7 @@ public class Hero extends Actor
     }
          
     /**
-     * Act - do whatever the Hero wants to do. This method is called whenever
+     * Act - do whatever the Hero wants to do. This method is called whenever //i fixed this comment block
      * the 'Act' or 'Run' button gets pressed in the environment.
      * @param there are no parameters
      * @return nothing is returned
@@ -50,9 +49,8 @@ public class Hero extends Actor
     }
     
     /**
-     * Add movement method here that will handle the movement right, left, and up
-     * for the Hero
-     *  @param there are no parameters
+     * movement will let the user move mario with the arrow keys //i fixed this comment block
+     * @param there are no parameters
      * @return nothing is returned
      */
     private void movement()
@@ -100,10 +98,7 @@ public class Hero extends Actor
     }
            
     /**
-     * Add checkCollision method here that will check if we've landed on the top
-     * of an Enemy, which will increase the score; touched an Enemy otherwise, which
-     * will have us lose the game; touched a platform which will allow us to jump again;
-     * or fall
+     * checkCollision will check to see if mario is touching the Enemy or ghost or luck actors
      *  @param there are no parameters
      * @return nothing is returned
      */
